@@ -50,7 +50,7 @@
 					},
 					"activities": [
 						{
-							"name": "test",
+							"name": "Set Variable",
 							"type": "SetVariable",
 							"dependsOn": [],
 							"policy": {
@@ -61,7 +61,7 @@
 							"typeProperties": {
 								"variableName": "test",
 								"value": {
-									"value": "@item().table_id",
+									"value": "@string(item().table_id)",
 									"type": "Expression"
 								}
 							}
