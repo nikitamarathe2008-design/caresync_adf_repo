@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-caresync-nikita"
+		},
+		"LS_ADLS_CARESYNC_PROJECT_properties_typeProperties_url": {
+			"value": "https://caresyncprojectnikks.dfs.core.windows.net/"
+		},
+		"LS_AzureKeyVault_CareSync_properties_typeProperties_baseUrl": {
+			"value": "https://CareSyncKeyVaultNik.vault.azure.net/"
+		},
+		"LS_AzureSqlDatabase_CareSync_properties_typeProperties_server": {
+			"value": "caresync-db.database.windows.net"
+		},
+		"LS_AzureSqlDatabase_CareSync_properties_typeProperties_database": {
+			"value": "sql-db-caresync"
+		},
+		"LS_AzureSqlDatabase_CareSync_properties_typeProperties_userName": {
+			"value": "NikitaMarathe2008"
+		},
+		"LS_POSTGRES_CARESYNC_properties_typeProperties_server": {
+			"value": "ep-patient-wildflower-aogj0tbh-pooler.c-2.ap-southeast-1.aws.neon.tech"
+		},
+		"LS_POSTGRES_CARESYNC_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"LS_POSTGRES_CARESYNC_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		},
+		"LS_AzureDatabricks_properties_typeProperties_existingClusterId": {
+			"value": "1114-153406-21r1piu3"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
