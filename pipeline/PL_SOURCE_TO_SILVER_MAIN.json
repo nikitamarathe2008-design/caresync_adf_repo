@@ -108,7 +108,7 @@
 							}
 						},
 						{
-							"name": "Update Success Status",
+							"name": "Update SUCCESS Status",
 							"type": "Script",
 							"dependsOn": [
 								{
